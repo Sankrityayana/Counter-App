@@ -10,20 +10,20 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: #1a1a2e;
+    background: #e3f2fd;
 }
 
 .container {
-    background: #16213e;
+    background: white;
     padding: 40px 60px;
     border-radius: 20px;
-    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.1);
     text-align: center;
     min-width: 400px;
 }
 
 h1 {
-    color: #e94560;
+    color: #1976d2;
     margin-bottom: 30px;
     font-size: 2.5rem;
     letter-spacing: 2px;
@@ -36,22 +36,22 @@ h1 {
 #counter {
     font-size: 6rem;
     font-weight: bold;
-    color: #0f3460;
+    color: #424242;
     display: inline-block;
     min-width: 200px;
     transition: transform 0.2s ease;
 }
 
 #counter.positive {
-    color: #00d9ff;
+    color: #4caf50;
 }
 
 #counter.negative {
-    color: #e94560;
+    color: #f44336;
 }
 
 #counter.zero {
-    color: #0f3460;
+    color: #424242;
 }
 
 .button-group {
@@ -83,30 +83,30 @@ h1 {
 }
 
 .btn-decrease {
-    background: #e94560;
+    background: #f44336;
     color: white;
 }
 
 .btn-decrease:hover {
-    background: #d63651;
+    background: #d32f2f;
 }
 
 .btn-reset {
-    background: #0f3460;
+    background: #757575;
     color: white;
 }
 
 .btn-reset:hover {
-    background: #0a2540;
+    background: #616161;
 }
 
 .btn-increase {
-    background: #00d9ff;
-    color: #1a1a2e;
+    background: #4caf50;
+    color: white;
 }
 
 .btn-increase:hover {
-    background: #00bfdd;
+    background: #388e3c;
 }
 
 @media (max-width: 480px) {
